@@ -1,3 +1,12 @@
+# VS Code
+.devcontainer/
+.vscode/
+
+# LR-RNN related
+predictions/
+KyotoCorpus4.0/
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

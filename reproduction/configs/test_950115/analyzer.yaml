@@ -1,0 +1,39 @@
+lr_tokenizer:
+  vectorizer: "data/test_950115/models/lr_tokenizer/vectorizer.pkl"
+  estimator: "data/test_950115/models/lr_tokenizer/estimator.pkl"
+lr_taggers:
+  vectorizer: "data/test_950115/models/lr_taggers/vectorizers.pkl"
+  estimators:
+    - "data/test_950115/models/lr_taggers/tagger_1/estimators.pkl"
+    - "data/test_950115/models/lr_taggers/tagger_2/estimators.pkl"
+    - "data/test_950115/models/lr_taggers/tagger_3/estimators.pkl"
+    - "data/test_950115/models/lr_taggers/tagger_4/estimators.pkl"
+    - "data/test_950115/models/lr_taggers/tagger_5/estimators.pkl"
+    - "data/test_950115/models/lr_taggers/tagger_6/estimators.pkl"
+  mappings:
+    - "data/test_950115/models/lr_taggers/tagger_1/ttoi_itot.json"
+    - "data/test_950115/models/lr_taggers/tagger_2/ttoi_itot.json"
+    - "data/test_950115/models/lr_taggers/tagger_3/ttoi_itot.json"
+    - "data/test_950115/models/lr_taggers/tagger_4/ttoi_itot.json"
+    - "data/test_950115/models/lr_taggers/tagger_5/ttoi_itot.json"
+    - "data/test_950115/models/lr_taggers/tagger_6/ttoi_itot.json"
+rnn_tokenizer:
+  checkpoint: "data/test_950115/models/rnn_tokenizer/best_model_19_f1=0.9443.pt"
+  model_config: "data/test_950115/models/rnn_tokenizer/other_params.json"
+rnn_taggers:
+  checkpoints:
+    - "data/test_950115/models/rnn_tagger_1/best_model_26_f1=0.9802.pt"
+    - "data/test_950115/models/rnn_tagger_2/best_model_35_f1=0.9562.pt"
+    - "data/test_950115/models/rnn_tagger_3/best_model_39_f1=0.9849.pt"
+    - "data/test_950115/models/rnn_tagger_4/best_model_16_f1=0.9847.pt"
+    - "data/test_950115/models/rnn_tagger_5/best_model_32_f1=0.9021.pt"
+    - "data/test_950115/models/rnn_tagger_6/best_model_34_f1=0.9389.pt"
+  model_configs:
+    - "data/test_950115/models/rnn_tagger_1/other_params.json"
+    - "data/test_950115/models/rnn_tagger_2/other_params.json"
+    - "data/test_950115/models/rnn_tagger_3/other_params.json"
+    - "data/test_950115/models/rnn_tagger_4/other_params.json"
+    - "data/test_950115/models/rnn_tagger_5/other_params.json"
+    - "data/test_950115/models/rnn_tagger_6/other_params.json"
+alpha: 0.3
+beta: 0.3

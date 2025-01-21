@@ -1,0 +1,4 @@
+train: data/test_950116/kana/gt/train.txt
+savedir: data/test_950116/models/lr_taggers
+solver: saga
+max_iter: 900

@@ -1,0 +1,4 @@
+train: data/test_950114/kana/gt/train.txt
+savedir: data/test_950114/models/lr_tokenizer
+solver: saga
+max_iter: 500

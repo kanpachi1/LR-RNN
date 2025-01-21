@@ -1,0 +1,12 @@
+train: data/test_950115/kana/gt/train.txt
+valid: data/test_950115/kana/gt/valid.txt
+level: 5
+savedir: data/test_950115/models/rnn_tagger_5
+batch_size: 20
+unroll_size: 20
+char_embedding_dim: 64
+chartype_embedding_dim: 8
+word_embedding_dim: 100
+hidden_size: 200
+dropout: 0
+max_epochs: 50
