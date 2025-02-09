@@ -63,7 +63,7 @@ pwd
 2. Run the following command to start a Docker container:
 
 ```bash
-docker run --gpus=all --rm -it -v `pwd`:/workspace -p 6006:6006 lrrnn
+docker run --gpus=all --rm -it -v "$(pwd)":/workspace -p 6006:6006 lrrnn
 ```
 
 > [!Note]
