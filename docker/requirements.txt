@@ -1,17 +1,17 @@
-numpy==2.1.2
+numpy==2.2.2
 pytorch-ignite==0.5.1
 pyyaml==6.0.2
 scikit-learn==1.6.1
 scipy==1.15.1
 tensorboard==2.18.0  # For visualization of training progress
 
-# Specify --extra-index-url to install PyTorch with CUDA 12.1 support
---extra-index-url https://download.pytorch.org/whl/cu121
-torch==2.5.1
+# Specify --extra-index-url to install PyTorch with CUDA 11.8 support
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.6.0
 
 # pytorch-ignite dependencies:
 tensorboardX==2.6.2.2  # ignite.handlers.tensorboard_logger.TensorboardLogger depends on
-tqdm==4.66.5  # ignite.handlers.tqdm_logger.ProgressBar depends on
+tqdm==4.67.1  # ignite.handlers.tqdm_logger.ProgressBar depends on
 
 # Packages for development
 #black==24.8.0  # Instead of installing black, use ms-python.black-formatter extension in VS Code

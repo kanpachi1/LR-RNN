@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.5.1-cuda12.1-cudnn9-runtime
+FROM pytorch/pytorch:2.6.0-cuda11.8-cudnn9-runtime
 
 # Make sure that lrrnn can be imported
 ENV PYTHONPATH=/workspace
