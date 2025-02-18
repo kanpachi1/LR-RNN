@@ -29,7 +29,7 @@ The proposed method specializes in analyzing highly ambiguous sequences, particu
 
 ## Installation
 
-### Preparing the Environment
+### Preparing the environment
 
 To set up LR-RNN, you need:
 
@@ -154,7 +154,7 @@ test_950112
   - The `raw` directory is used for prediction as the input data.
 - The `train.txt`, `valid.txt`, and `test.txt` files contain the training, validation, and test data, respectively.
 
-### Dataset Format
+### Dataset format
 
 The ground truth files (`gt` directory) use the following format:
 - One sentence per line (ends with `\n`)
