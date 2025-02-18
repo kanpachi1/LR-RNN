@@ -23,7 +23,7 @@ The proposed method specializes in analyzing highly ambiguous sequences, particu
 ### Citation
 
 > [*Sequential Morphological Analysis of Hiragana Strings using Recurrent Neural Network and Logistic Regression*](https://doi.org/10.5715/jnlp.29.367)\
-> Authors: Shuhei Moriyama, Tomohiro Ohno\
+> Authors: [Shuhei Moriyama](https://researchmap.jp/shuhei-moriyama), [Tomohiro Ohno](https://researchmap.jp/7000019470)\
 > Published in: *Journal of Natural Language Processing*, 2022, Volume 29, Issue 2, Pages 367-394.\
 > *Language: Japanese*
 
